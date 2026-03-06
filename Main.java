@@ -115,7 +115,9 @@ public static String formatCard(String surname, String givenName,
 public static String formatDate(int month, int day, int year){
 
 
-        return "";
+       
+
+        return String.format("%02d/%02d/%04d", month, day, year);
 }
 
 
